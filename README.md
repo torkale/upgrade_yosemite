@@ -46,7 +46,7 @@ See more here: http://stackoverflow.com/questions/26433495/intellij-not-starting
 
 ### Shiftit
 
-In case you are using Shiftit you need to perform the following actions:
+In case you are using [Shiftit](https://github.com/fikovnik/ShiftIt) you need to perform the following actions:
 
 1. Open System preferences -> Security & Privacy
 2. Go to Privacy
