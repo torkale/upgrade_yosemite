@@ -22,6 +22,12 @@ If you installed pg via homebrew you will need to create the following folders t
 cd cd /usr/local/var/postgres && mkdir pg_tblspc pg_twophase pg_stat_tmp
 ```
 
+Alternatively you can use [Postgres.app](http://postgresapp.com/) for psql, and adding the Postgres.app bin directory to $PATH
+
+```sh
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+```
+
 ## Apps
 
 ### Shiftit
