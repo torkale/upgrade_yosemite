@@ -16,11 +16,15 @@ brew tap homebrew/boneyard
 
 ### postgresql
 
+#### Option 1: Stay with brew
+
 If you installed pg via homebrew you will need to create the following folders to be able to connect to pg
 
 ```sh
 cd cd /usr/local/var/postgres && mkdir pg_tblspc pg_twophase pg_stat_tmp
 ```
+
+#### Option 2: Switch to Postgres.app
 
 Alternatively you can use [Postgres.app](http://postgresapp.com/) for psql, and adding the Postgres.app bin directory to $PATH
 
