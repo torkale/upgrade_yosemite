@@ -38,6 +38,12 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
 
 ## Apps
 
+### Any Jetbrains IDE like PyCharm, PHPStorm, IntelliJ, RubyMine
+
+Will not run on Yosemite unless Java is downgraded to the last stable 1.6 release.
+
+See more here: http://stackoverflow.com/questions/26433495/intellij-not-starting-after-os-x-yosemite-update
+
 ### Shiftit
 
 In case you are using Shiftit you need to perform the following actions:
