@@ -54,6 +54,21 @@ In case you are using Shiftit you need to perform the following actions:
 
 Reference: https://github.com/fikovnik/ShiftIt/issues/136
 
+## General
+
+### Pow
+[Pow](http://pow.cx/) is broken after the upgrade.
+
+To Fix:
+
+1. Uninstall pow
+2. Install pow
+
+```sh
+$ curl get.pow.cx/uninstall.sh | sh
+$ curl get.pow.cx | sh
+```
+
 ## License
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
