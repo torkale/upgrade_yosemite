@@ -1,10 +1,12 @@
-# Upgrade from OSX Mavericks to OSX Yosemite
+# Upgrade Yosemite
 
-A list of known issues when upgrading development machine from mavericks to yosemite
+A list of known issues when upgrading development machine from osx 10.9 mavericks to osx 10.10 yosemite.
 
-It is recommended to perform the update overnight as it requires several hours
+It is recommended to perform the update overnight as it requires several hours.
 
-### Homebrew services
+## Homebrew 
+
+### services
 
 It is required to retap services
 
@@ -19,6 +21,8 @@ If you installed pg via homebrew you will need to create the following folders t
 ```sh
 cd cd /usr/local/var/postgres && mkdir pg_tblspc pg_twophase pg_stat_tmp
 ```
+
+## Apps
 
 ### Shiftit
 
