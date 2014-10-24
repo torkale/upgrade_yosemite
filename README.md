@@ -2,7 +2,11 @@
 
 A list of known issues when upgrading development machine from osx 10.9 mavericks to osx 10.10 yosemite.
 
-It is recommended to perform the update overnight as it requires several hours.
+## Before the installation
+
+As part of the installation of Yosemite it will move all the files from /usr/local (Homebrew can easily put over 100k files in /usr/local) and then recover those files back. The recovery process is very slow (few files per second) and can last several hours.
+
+To avoid the slow recovery it is recommended to move all the /usr/local files to a folder in your home directory and move it back once the installation is over.
 
 ## Homebrew 
 
