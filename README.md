@@ -10,6 +10,10 @@ To avoid the slow recovery it is recommended to move all the /usr/local files to
 
 ## Homebrew 
 
+Formulas Not Working with OS X 10.10:
+
+https://github.com/Homebrew/homebrew/issues/29988
+
 ### services
 
 It is required to retap services
