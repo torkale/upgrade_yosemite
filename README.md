@@ -29,7 +29,7 @@ brew tap homebrew/boneyard
 If you installed pg via homebrew you will need to create the following folders to be able to connect to pg
 
 ```sh
-cd cd /usr/local/var/postgres && mkdir pg_tblspc pg_twophase pg_stat_tmp
+cd /usr/local/var/postgres && mkdir pg_tblspc pg_twophase pg_stat_tmp
 ```
 
 #### Option 2: Switch to Postgres.app
@@ -59,6 +59,15 @@ In case you are using [Shiftit](https://github.com/fikovnik/ShiftIt) you need to
 Reference: https://github.com/fikovnik/ShiftIt/issues/136
 
 ## General
+
+### Command line tools
+
+Fail to run native compilation e.g. when installing native ruby gems - `extconf failed, exit code 1`
+
+Install xcode-select :
+```sh
+xcode-select --install
+```
 
 ### Pow
 [Pow](http://pow.cx/) is broken after the upgrade.
